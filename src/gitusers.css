@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: deepskyblue;
+}
+
+.gitUsers {
+  background-color: #19191a;
+  background-image: linear-gradient(315deg, #37ac099d 30%, #fffffff3 70%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0;
+  min-height: 110vh;
+  max-width: 100%;
+}
+.errorPage {
+  background-color: #19191a;
+  background-image: linear-gradient(315deg, #37ac099d 30%, #fffffff3 70%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 110vh;
+  max-width: 100%;
+}
+
+.errorPage .errorPageHeader {
+  color: black;
+  text-align: center;
+}
+
+.gitUsers .user {
+  width: auto;
+  height: auto;
+  padding: 2px 4px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: white;
+  background-color: deeppink;
+  margin: 0 1rem;
+}
+
+.gitUsers .userlinks {
+  margin-bottom: 2rem;
+}
+
+.gitUsers form {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.gitUsers form input {
+  background-color: #181717;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
+  color: white;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.container form input::placeholder {
+  color: #bbb;
+}
+
+.gitUsers input:focus {
+  outline: none;
+}
+
+.gitUsers .card {
+  background-color: #045858;
+  background-image: linear-gradient(315deg, #161518 50%, #407212bd 50%);
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding: 3rem;
+  max-width: 800px;
+}
+
+.gitUsers .avatar {
+  border: 10px solid #ffffff;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.gitUsers .user-info {
+  color: #eee;
+  margin-left: 2rem;
+}
+
+.gitUsers .user-info h2 {
+  margin-top: 0;
+}
+
+.gitUsers .user-info ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  max-width: 400px;
+}
+
+.gitUsers .user-info ul li {
+  display: flex;
+  align-items: center;
+}
+
+.gitUsers .user-info ul li strong {
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+
+.gitUsers .repo {
+  background-color: #eff4f7;
+  border-radius: 5px;
+  display: inline-block;
+  color: #1a1919;
+  font-size: 0.7rem;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .errorPageHeader {
+    font-size: 1rem;
+    color: white;
+  }
+}
