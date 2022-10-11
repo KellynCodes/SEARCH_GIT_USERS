@@ -31,7 +31,7 @@ const GitUsers = () => {
     getUsers("prokelly");
 
     user && FocusInputOnRender.current.focus();
-  }, [user]);
+  }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
