@@ -148,4 +148,9 @@ a {
     font-size: 1rem;
     color: white;
   }
+
+  .gitUsers .card {
+    padding: 1rem;
+    max-width: 100%;
+  }
 }
