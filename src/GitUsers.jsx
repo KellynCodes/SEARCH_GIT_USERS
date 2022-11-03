@@ -80,7 +80,7 @@ const GitUsers = () => {
         </form>
         <main id="main">
           <div className="card">
-            <div>
+            <div className="img_container">
               <img className="avatar" src={user.avatar_url} alt={user.name} />
             </div>
             <div className="user-info">
@@ -120,7 +120,7 @@ const GitUsers = () => {
                         (repo, reduceRepo) =>
                           reduceRepo.stargazers_count - repo.stargazers_count
                       )
-                        .slice(0, 15)
+                        .slice(15, 0)
                         .map((element) => (
                           <a
                             className="repo"
