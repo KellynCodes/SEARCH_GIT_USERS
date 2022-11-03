@@ -46,7 +46,6 @@ const GitUsers = () => {
         console.log(data);
       } catch (error) {
         console.log(error);
-        window.write(error);
       }
       getRepos(fetcheduser);
     };
