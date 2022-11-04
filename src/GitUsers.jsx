@@ -120,7 +120,7 @@ const GitUsers = () => {
                         (repo, reduceRepo) =>
                           reduceRepo.stargazers_count - repo.stargazers_count
                       )
-                        .slice(0, 20)
+                        .slice(0, 15)
                         .map((element) => (
                           <a
                             className="repo"
