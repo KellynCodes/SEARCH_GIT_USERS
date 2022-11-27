@@ -28,7 +28,7 @@ const GitUsers = () => {
       };
       getRepos(User);
     };
-    getUsers("prokelly");
+    getUsers("KellynCodes");
 
     user && FocusInputOnRender.current.focus();
   }, []);
